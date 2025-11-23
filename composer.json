@@ -1,0 +1,22 @@
+{
+  "name": "blogweb/blogweb",
+  "description": "description",
+  "minimum-stability": "stable",
+  "version": "1.0.0",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Sleepy Ranger",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+  },
+  "require-dev": {
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "app//"
+    }
+  }
+}
