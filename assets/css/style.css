@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+.transparent-nav {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 40px;
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(10px);
+}
+
+
+.transparent-nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+
+.transparent-nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.hero {
+    height: 100vh;
+    background: url('https://picsum.photos/1200/800') center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-shadow: 2px 2px 5px #000;
+}
