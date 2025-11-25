@@ -1,6 +1,4 @@
-<?php
-
- include 'assets/css/style.css'; ?>
+<?php ?>
 <!DOCTYPE html>
 <html>
 <head>
